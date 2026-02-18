@@ -3,3 +3,9 @@
   align-items: center;
   justify-content: center;
 }
+
+textarea {
+  padding: 20px;
+  outline: none;
+  margin-top: 20px;
+}
