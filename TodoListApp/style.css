@@ -1,0 +1,11 @@
+* {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  outline: none;
+  padding: 14px;
+  margin-top: 12px;
+}
