@@ -7,7 +7,7 @@ button.addEventListener("click", () => {
   if (input.value.trim() === "") return
 
   let li = document.createElement("li")
-x
+  
   let checkbox = document.createElement("input")
   checkbox.type = "checkbox"
 
