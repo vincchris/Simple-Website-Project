@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.card {
+  width: 80%;
+  max-width: 1000px;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card button {
+  cursor: pointer;
+}
+
+/* Grid Style */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card-items {
+  padding: 20px;
+  border: 1px solid black;
+}
